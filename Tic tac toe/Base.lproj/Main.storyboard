@@ -83,6 +83,20 @@
                                     <action selector="XOButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TnI-Hp-3tG"/>
                                 </connections>
                             </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9sz-iC-tS1">
+                                <rect key="frame" x="157" y="732" width="100" height="30"/>
+                                <state key="normal" title="Play Again"/>
+                                <connections>
+                                    <action selector="PlayAgin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VGO-Br-ChN"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOW-wX-c2s">
+                                <rect key="frame" x="66" y="78" width="317" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3PN-r6-3N0">
                                 <rect key="frame" x="283" y="523" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -95,12 +109,19 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9sz-iC-tS1" secondAttribute="bottom" constant="100" id="5Or-dz-tSd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9sz-iC-tS1" secondAttribute="trailing" constant="157" id="Gfx-QW-WcO"/>
                             <constraint firstItem="jNF-Xy-eHc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Zne-Dx-39l"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jNF-Xy-eHc" secondAttribute="trailing" constant="20" id="bxZ-zc-Jgs"/>
                             <constraint firstItem="jNF-Xy-eHc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="146" id="cZN-Yh-paF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jNF-Xy-eHc" secondAttribute="bottom" constant="155" id="hln-99-DOm"/>
+                            <constraint firstItem="9sz-iC-tS1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="157" id="wY4-Jg-XJP"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="PlayAgainButton" destination="9sz-iC-tS1" id="tnB-sh-uFd"/>
+                        <outlet property="PlayerName" destination="DOW-wX-c2s" id="Sgd-n7-LSc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
