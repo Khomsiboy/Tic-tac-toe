@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD37067625A1019900CCC172 /* d2ff1157bd1910c3b7a66ff9bb20f48d.gif in Resources */ = {isa = PBXBuildFile; fileRef = CD37067325A1019900CCC172 /* d2ff1157bd1910c3b7a66ff9bb20f48d.gif */; };
+		CD37067725A1019900CCC172 /* o.png in Resources */ = {isa = PBXBuildFile; fileRef = CD37067425A1019900CCC172 /* o.png */; };
+		CD37067825A1019900CCC172 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD37067525A1019900CCC172 /* x.png */; };
+		CD37067D25A102A300CCC172 /* 0*Dsyde0AOjxdNDKcf..png in Resources */ = {isa = PBXBuildFile; fileRef = CD37067C25A102A300CCC172 /* 0*Dsyde0AOjxdNDKcf..png */; };
+		CD37068325A103E800CCC172 /* TAcgX.png in Resources */ = {isa = PBXBuildFile; fileRef = CD37068125A103E800CCC172 /* TAcgX.png */; };
+		CD37068425A103E800CCC172 /* ptmKe.png in Resources */ = {isa = PBXBuildFile; fileRef = CD37068225A103E800CCC172 /* ptmKe.png */; };
 		CD8D758025A0BC7D00DF253B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8D757F25A0BC7D00DF253B /* AppDelegate.swift */; };
 		CD8D758225A0BC7D00DF253B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8D758125A0BC7D00DF253B /* SceneDelegate.swift */; };
 		CD8D758425A0BC7D00DF253B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8D758325A0BC7D00DF253B /* ViewController.swift */; };
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD37067325A1019900CCC172 /* d2ff1157bd1910c3b7a66ff9bb20f48d.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = d2ff1157bd1910c3b7a66ff9bb20f48d.gif; path = ../../../../Downloads/d2ff1157bd1910c3b7a66ff9bb20f48d.gif; sourceTree = "<group>"; };
+		CD37067425A1019900CCC172 /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = o.png; path = ../../../../Downloads/o.png; sourceTree = "<group>"; };
+		CD37067525A1019900CCC172 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x.png; path = ../../../../Downloads/x.png; sourceTree = "<group>"; };
+		CD37067C25A102A300CCC172 /* 0*Dsyde0AOjxdNDKcf..png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "0*Dsyde0AOjxdNDKcf..png"; path = "../../../../Downloads/0*Dsyde0AOjxdNDKcf..png"; sourceTree = "<group>"; };
+		CD37068125A103E800CCC172 /* TAcgX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TAcgX.png; path = ../../../../Downloads/TAcgX.png; sourceTree = "<group>"; };
+		CD37068225A103E800CCC172 /* ptmKe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ptmKe.png; path = ../../../../Downloads/ptmKe.png; sourceTree = "<group>"; };
 		CD8D757C25A0BC7D00DF253B /* Tic tac toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic tac toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8D757F25A0BC7D00DF253B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD8D758125A0BC7D00DF253B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +111,12 @@
 		CD8D757E25A0BC7D00DF253B /* Tic tac toe */ = {
 			isa = PBXGroup;
 			children = (
+				CD37068225A103E800CCC172 /* ptmKe.png */,
+				CD37068125A103E800CCC172 /* TAcgX.png */,
+				CD37067C25A102A300CCC172 /* 0*Dsyde0AOjxdNDKcf..png */,
+				CD37067325A1019900CCC172 /* d2ff1157bd1910c3b7a66ff9bb20f48d.gif */,
+				CD37067425A1019900CCC172 /* o.png */,
+				CD37067525A1019900CCC172 /* x.png */,
 				CD8D757F25A0BC7D00DF253B /* AppDelegate.swift */,
 				CD8D758125A0BC7D00DF253B /* SceneDelegate.swift */,
 				CD8D758325A0BC7D00DF253B /* ViewController.swift */,
@@ -231,8 +249,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD37067825A1019900CCC172 /* x.png in Resources */,
+				CD37067725A1019900CCC172 /* o.png in Resources */,
 				CD8D758C25A0BC7D00DF253B /* LaunchScreen.storyboard in Resources */,
+				CD37068325A103E800CCC172 /* TAcgX.png in Resources */,
 				CD8D758925A0BC7D00DF253B /* Assets.xcassets in Resources */,
+				CD37067D25A102A300CCC172 /* 0*Dsyde0AOjxdNDKcf..png in Resources */,
+				CD37067625A1019900CCC172 /* d2ff1157bd1910c3b7a66ff9bb20f48d.gif in Resources */,
+				CD37068425A103E800CCC172 /* ptmKe.png in Resources */,
 				CD8D758725A0BC7D00DF253B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
